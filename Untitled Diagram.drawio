@@ -1,15 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T17:07:40.123Z" agent="5.0 (Macintosh)" etag="9YPCskYP_pJcbqN0_ZAz" version="20.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-16T16:59:15.173Z" agent="5.0 (Macintosh)" etag="gDyzzxRNP-5XrqJ2bEAo" version="20.3.1" type="github">
   <diagram id="V70Bk0YZF8uXWd9Gom7p" name="Page-1">
-    <mxGraphModel dx="541" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="440" dy="298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8DigbwDgfIBPc5HBKQLF-1" value="Airline" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="90" width="160" height="140" as="geometry">
+          <mxGeometry x="180" y="100" width="160" height="140" as="geometry">
             <mxRectangle x="130" y="90" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8DigbwDgfIBPc5HBKQLF-2" value="AirlineName" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="8DigbwDgfIBPc5HBKQLF-1">
+        <mxCell id="8DigbwDgfIBPc5HBKQLF-2" value="Airline_Code&#xa;Airline_Name&#xa;Airline_Country&#xa;" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="8DigbwDgfIBPc5HBKQLF-1">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8DigbwDgfIBPc5HBKQLF-11" value="Flight" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="100" width="160" height="140" as="geometry">
+            <mxRectangle x="130" y="90" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8DigbwDgfIBPc5HBKQLF-12" value="Flight_Number" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="8DigbwDgfIBPc5HBKQLF-11">
           <mxGeometry y="30" width="160" height="110" as="geometry" />
         </mxCell>
       </root>
